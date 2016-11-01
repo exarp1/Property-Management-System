@@ -1,0 +1,18 @@
+Place the collowing code into your html <head> </head> tags:
+
+
+
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="scripts/DataTables-1.10.5/media/css/jquery.dataTables.css">
+  
+<!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="scripts/DataTables-1.10.5/media/js/jquery.js"></script>
+  
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="scripts/DataTables-1.10.5/media/js/jquery.dataTables.js"></script>
+
+<!-- Our Script File -->
+<script src="scripts/data_tables.js"></script>
+<script src="scripts/script.js"></script>
+

@@ -1,0 +1,169 @@
+/*---------------------------------------------------------------------*/
+html { 
+    font-family: "Times New Roman", Times, serif; /* sets the global default font */
+}
+
+div hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+}
+
+/*---------------------------------------------------------------------*/
+/* Logo image and Address Image */
+#companyLogo
+{
+	height: 100px;
+}
+
+#companyAddress
+{
+	height: 100px;
+}
+/*---------------------------------------------------------------------*/
+
+
+#ErrorMessage {         /*** Sets the color of error messages to red */
+    color: rgb(255,0,0);
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+
+.center {
+	text-align: center;
+}
+
+#LoginArea {
+    text-align: center;
+}
+
+.LoginLayout {
+    background: #CCCCCC;
+    border-radius: 10px;
+}
+
+#WebsiteHeader {
+    border-bottom-style: solid;
+}
+
+/*tbody {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 10px; 
+}*/
+
+/*** ---------- Begin manageBuildings.php---------- ***/
+
+.tableRow
+{
+	height: 18px;
+
+}
+
+.tableData
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.building-table
+{
+	width: inherit;
+	height: 84px;
+	overflow: scroll;
+}
+#row0col1,  #row1col1
+{
+	width: 4%;
+}
+#row0col2, #row1col2
+{
+	width: 10%;
+}
+
+#row0col3, #row1col3
+{
+	width: 14%;
+}
+
+#row0col4,  #row1col4
+{
+	width: 7%;
+}
+
+#row0col5,  #row1col5
+{
+	width: 15%;
+}
+
+#row0col6,  #row1col6
+{
+	width: 50%;
+}
+
+
+
+/*** ---------- End manageBuildings.php---------- ***/
+
+
+/*** ---------- begin Table shit ---------- ***/
+
+.header-fixed {
+    width: 100%;
+}
+
+.header-fixed > thead,
+.header-fixed > tbody,
+.header-fixed > thead > tr,
+.header-fixed > tbody > tr,
+.header-fixed > thead > tr > th,
+.header-fixed > tbody > tr > td {
+    display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: auto;
+    height: 150px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+    width: 33.33%; /* Math: 100%/ number of columns; */
+    float: left;
+}
+
+.highlight {
+    background-color: rgb(158, 158, 158);
+}
+
+
+/*** ---------- End Table shit ---------- ***/
